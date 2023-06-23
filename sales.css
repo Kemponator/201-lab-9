@@ -1,0 +1,139 @@
+* {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: aquamarine;
+  border: 1px solid teal;
+  font-family: cursive;
+  font-size: 2rem;
+}
+
+li {
+  text-align: center;
+  border: 1px solid teal;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+body {
+  background-color: light;
+  color: black;
+}
+
+h1 {
+  background-color: aquamarine;
+  color: black;
+  font-family: monospace;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+}
+h2 {
+  background-color: #c4d7b2;
+  color: black;
+  text-align: center;
+}
+
+.logo {
+  scale: 10%;
+}
+
+/*.logo {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}*/
+
+table,
+th,
+td {
+  border: 1px solid teal;
+  border-collapse: collapse;
+  background-color: #f2d8d8;
+  margin-bottom: 6rem;
+  height: auto;
+}
+
+th,
+td {
+  padding: 0.5rem;
+}
+
+table {
+  width: 100%;
+}
+
+article {
+  overflow-x: auto;
+}
+
+a:hover {
+  background-color: aquamarine;
+}
+
+.active {
+  background-color: aquamarine;
+  color: black;
+}
+
+#container {
+  padding: 20px;
+}
+
+legend {
+  margin-bottom: 1rem;
+}
+
+input {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+form {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid tomato;
+}
+
+fieldset,
+legend {
+  margin-bottom: 1rem;
+}
+
+fieldset input:last-of-type {
+  margin-bottom: 0;
+}
+
+legend {
+  font-size: 1.25rem;
+}
+
+.inline-input {
+  display: inline;
+}
+
+button[type="submit"] {
+  background-color: tomato;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}

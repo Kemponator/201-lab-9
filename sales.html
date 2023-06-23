@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salmon Cookie Shop</title>
+    <meta
+      name="description"
+      content="This is the demo for class six of the 201."
+    />
+    <link rel="stylesheet" href="sales.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Literata:wght@300&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Salmon Cookie Shop</h1>
+      <img
+        class="logo"
+        src="https://images.vexels.com/media/users/3/137595/isolated/preview/01659b1dfbf775987bb67694efecb851-fishing-fish-logo-icon.png"
+        alt="Logo"
+      />
+      <nav>
+        <ul>
+          <li>
+            <a class="active" href="index.html">Main</a>
+          </li>
+          <li>
+            <a href="sales.html">Sales</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="container"></div>
+      <div>
+        <form id="addKittenForm">
+          <fieldset>
+            <legend>Basic Information</legend>
+
+            <label for="nameInput">Name</label>
+            <input type="text" id="nameInput" name="name" />
+
+            <label for="interestInput">Interests</label>
+            <input type="text" id="interestInput" name="interests" />
+            <span>List interests, seperated by commas</span>
+          </fieldset>
+          <fieldset>
+            <legend>Placement Information</legend>
+            <p>Can be placed with...</p>
+
+            <label>
+              <input
+                class="inline-input"
+                type="checkbox"
+                name="isGoodWithKids"
+              />
+              Kids
+            </label>
+
+            <label>
+              <input
+                class="inline-input"
+                type="checkbox"
+                name="isGoodWithDogs"
+              />
+              Dogs
+            </label>
+
+            <label>
+              <input
+                class="inline-input"
+                type="checkbox"
+                name="isGoodWithCats"
+              />
+              Cats
+            </label>
+          </fieldset>
+          <button type="submit">SUBMIT</button>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="sales.js"></script>
+    <!-- <script src="sales.js"></script> -->
+  </body>
+</html>
